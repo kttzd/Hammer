@@ -64,4 +64,4 @@ def Audit(services):
             futures.as_completed(tasks)
 if __name__=='__main__':
     services = {'url':'http://www.27zg.com'}
-    Audit(services)
+    pprint(Audit(services))
