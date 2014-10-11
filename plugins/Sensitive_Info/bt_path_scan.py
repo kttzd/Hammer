@@ -11,7 +11,7 @@ info = {
         'WEB':''
 }
 DIR=[]
-ADMIN_DIR=['-admin','2013','_2013','adminer','_admin','2012','_2012','2008','_2008','_system','_sys_admin','admin','2014','system','test','_test','-system','_adminer','-test','info','data','conn','backup','-data','_data','-conn','_conn','_backup','-backup']
+ADMIN_DIR=['-admin','2013','_2013','adminer','_admin','2012','_2012','2008','_2008','_system','_sys_admin','admin','2014','system','test','_test','-system','_adminer','-test','info','data','conn','backup','-data','_data','-conn','_conn','_backup','-backup','db','_db','-db']
 def getname(url):
     target=url
     target_url=re.match(r'\w+:\/\/\w+\.(.*?)\.\w+',target).group(1)   #来源于乌云社区
